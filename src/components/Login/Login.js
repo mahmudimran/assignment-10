@@ -31,8 +31,7 @@ const Login = () => {
     }
     return (
         <div>
-            <h2 className="text-center">Let's Have a Discussion </h2>
-            <h3 className="text-center"> About Your Identification </h3>
+            <h2 className="text-center">Login</h2>
             <br/>
             <div className="d-flex justify-content-center"><button className="btn-success p-2" onClick={handleGoogleSignIn}> Sign in with Google </button></div>
         </div>
